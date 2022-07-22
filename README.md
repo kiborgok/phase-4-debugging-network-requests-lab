@@ -63,11 +63,15 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  Found out that there was an internal server error and edited the Toys class name to Toy
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  Added the render method to return the updated toy likes
+
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  Added the destroy action to toys resource
